@@ -13,13 +13,13 @@ public class maxend3{
       System.out.printf("the new array is\n");
       for(int i=0;i<array.length;i++){
       System.out.printf("%d",a[i]);
-      
+      System.out.printf("  ");
       }
     
   }
   public static int[] max(int[]a){
      int max1=a[0];
-     for(int i=0;i<3;i++)
+     for(int i=0;i<3;i++) 
      {if(a[i]>max1)
       max1=a[i];
       
